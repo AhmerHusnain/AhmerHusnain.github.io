@@ -125,13 +125,9 @@ html , body {
     font-size: 200%;
   }
   .social a {
-    font-size: 2.5em;
-    padding: 1.2em;
-  }
-  #smc {
-    font-size: 2.5rem;
-    padding: 1.2rem;
-  }
+    font-size: 50%;
+    padding: 1.2em !important;
+
    
 }
 @media (max-width: 576px) {
@@ -160,19 +156,11 @@ html , body {
     display: none;
   }
   .social a {
-    font-size: 2.5em;
-    padding: 1.2em;
+    font-size: 2em !important;
+    padding: 0.7em !important;
   }
   .dislay-4 {
     font-size: 160%;
-  }
-  .social a {
-    font-size: 2em;
-    padding: 0.7em;
-  }
-  #smc {
-    font-size: 2em;
-    padding: 0.7rem;
   }
 
 
@@ -252,10 +240,7 @@ hr.end {
   text-align: center;
 }
 
-#smc {
-  font-size: 4.5rem;
-  padding: 3rem;
-}
+
 .fa-facebook-square {
   color: blue;
 }
@@ -278,8 +263,6 @@ hr.end {
 
 .fa-facebook-square:hover , .fa-google-plus:hover ,.fa-instagram:hover ,.fa-youtube:hover , .fa-twitter:hover {
 color: #d5d5d5;
-
-
 }
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
